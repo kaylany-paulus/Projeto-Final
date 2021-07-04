@@ -9,41 +9,41 @@ O programa exibe as funcionalidades das operações <b>_aritméticas_</b>.
 ```
 Executa a SOMA.
 ```
-![Tela do programa](imagens/telaSoma.png)
+![Tela do programa](Imagens/telaSoma.png)
 
 ### _SCREENSHOT_
 ```
 Executa a SUBTRAÇÃO.
 ```
-![Tela do programa](imagens/telaSubtracao.png)
+![Tela do programa](Imagens/telaSubtracao.png)
 
 ### _SCREENSHOT_
 
 ```
 Executa a MULTIPLICAÇÃO.
 ```
-![Tela do programa](imagens/telaMultiplicacao.png)
+![Tela do programa](Imagens/telaMultiplicacao.png)
 
 ### _SCREENSHOT_
 
 ```
 Executa a DIVISÃO.
 ```
-![Tela do programa](imagens/telaDivisao.png)
+![Tela do programa](Imagens/telaDivisao.png)
 
 ### _SCREENSHOT_
 
 ```
 Executa a EXPONENCIAÇÃO.
 ```
-![Tela do programa](imagens/telaExponenciacao.png)
+![Tela do programa](Imagens/telaExponenciacao.png)
 
 ### _SCREENSHOT_
 
 ```
 Executa a RADICIAÇÃO.
 ```
-![Tela do programa](imagens/telaRadiciacao.png)
+![Tela do programa](Imagens/telaRadiciacao.png)
 
 ---
 
