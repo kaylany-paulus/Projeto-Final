@@ -18,7 +18,13 @@ namespace ProjetoFinal
                 switch (opcao)
                 {
                     case "A":
-                        Console.WriteLine("Sou o programa");
+                        Console.ForegroundColor = ConsoleColor.Cyan;
+                        Console.WriteLine(
+                            "\nSou um programa que executa as operações aritméticas.");
+                        Console.ResetColor();
+                        Console.Write(
+                            "Caso tenha alguma duvida ou qualquer problema "); 
+                        Console.Write("entre em contato (https://github.com/kaylany-paulus).\n");
                         break;
                     case "S":
                         calculaSoma();
@@ -39,13 +45,19 @@ namespace ProjetoFinal
                         calculaRadiciacao();
                         break;
                     case "X":
-                        Console.WriteLine("Obrigado por utilizar nosso programa!");
+                        Console.ForegroundColor = ConsoleColor.Green;
+                        Console.WriteLine("\n\nObrigado por utilizar nosso programa!");
+                        Console.ResetColor();
                         break;
                     default:
-                        Console.WriteLine("Funcionalidade indisponível");
+                        Console.ForegroundColor = ConsoleColor.DarkRed;
+                        Console.WriteLine("\nFuncionalidade indisponível");
+                        Console.ResetColor();
                         break;
                 }
-                Console.WriteLine("Pressione uma tecla para continuar...\n");
+                Console.ForegroundColor = ConsoleColor.Magenta;
+                Console.Write("\nPressione uma tecla para continuar...");
+                Console.ResetColor();
                 Console.ReadKey();
                 Console.Clear();
             }
@@ -81,8 +93,9 @@ namespace ProjetoFinal
             numeroDois = digitaNumeroOrdenado("segundo");
 
             resultado = numeroUm + numeroDois;
-
-            Console.WriteLine($"A soma de {numeroUm} + {numeroDois} é igual a {resultado:N2}");
+            Console.ForegroundColor = ConsoleColor.Cyan;
+            Console.WriteLine($"\nA soma de {numeroUm} + {numeroDois} é igual a {resultado:N2}");
+            Console.ResetColor();
         }
 
         static void calculaSubtracao()
@@ -96,8 +109,9 @@ namespace ProjetoFinal
             numeroDois = digitaNumeroOrdenado("segundo");
 
             resultado = numeroUm - numeroDois;
-
-            Console.WriteLine($"A subtração de {numeroUm} - {numeroDois} é igual a {resultado}");
+            Console.ForegroundColor = ConsoleColor.Cyan;
+            Console.WriteLine($"\nA subtração de {numeroUm} - {numeroDois} é igual a {resultado}");
+            Console.ResetColor();
         }
 
         static void calculaProduto()
@@ -111,8 +125,10 @@ namespace ProjetoFinal
             numeroDois = digitaNumeroOrdenado("segundo");
 
             resultado = numeroUm * numeroDois;
-
-            Console.WriteLine($"O produto de {numeroUm} x {numeroDois} é igual a {resultado:N2}");
+            
+            Console.ForegroundColor  = ConsoleColor.Cyan;
+            Console.WriteLine($"\nO produto de {numeroUm} x {numeroDois} é igual a {resultado:N2}");
+            Console.ResetColor();
         }
 
         static void calculaDivisao()
@@ -128,13 +144,15 @@ namespace ProjetoFinal
             if (numeroDois == 0)
             {
                 Console.ForegroundColor = ConsoleColor.DarkRed;
-                Console.WriteLine("Não é possível a divisão por zero!");
+                Console.WriteLine("\nNão é possível a divisão por zero!");
                 Console.ResetColor();
             }
             else
             {
                 resultado = numeroUm / numeroDois;
-                Console.WriteLine($"A divisão de {numeroUm} / {numeroDois} é igual a {resultado:N2}");
+                Console.ForegroundColor  = ConsoleColor.Cyan;
+                Console.WriteLine($"\nA divisão de {numeroUm} / {numeroDois} é igual a {resultado:N2}");
+                Console.ResetColor();
             }
         }
 
@@ -145,12 +163,14 @@ namespace ProjetoFinal
             Console.WriteLine("|     Exponenciação       |");
             Console.WriteLine("---------------------------");
 
-            @base = digitaNumero("Digite a base: ");
-            potencia = digitaNumero("Digite a potência: ");
+            @base = digitaNumero("\nDigite a base..: ");
+            potencia = digitaNumero("\nDigite a potência..: ");
 
             resultado = Math.Pow(@base, potencia);
 
-            Console.WriteLine($"A potência de {@base} elevado a {potencia} é igual a {resultado:N2}");
+            Console.ForegroundColor  = ConsoleColor.Cyan;
+            Console.WriteLine($"\nA potência de {@base} elevado a {potencia} é igual a {resultado:N2}");
+            Console.ResetColor();
         }
 
         static void calculaRadiciacao()
@@ -160,16 +180,20 @@ namespace ProjetoFinal
             Console.WriteLine("|        Radiciação       |");
             Console.WriteLine("---------------------------");
 
-            numero = digitaNumero("Digite um número: ");
+            numero = digitaNumero("\nDigite um número..: ");
 
             if (numero < 0)
             {
-                Console.WriteLine("Não existem raízes de números negativos!");
+                Console.ForegroundColor  = ConsoleColor.DarkRed;
+                Console.WriteLine("\nNão existem raízes de números negativos!");
+                Console.ResetColor();
             }
             else
             {
                 resultado = Math.Sqrt(numero);
-                Console.WriteLine($"A raiz de {numero} é igual a {resultado:N2}");
+                Console.ForegroundColor  = ConsoleColor.Cyan;
+                Console.WriteLine($"\nA raiz de {numero} é igual a {resultado:N2}");
+                Console.ResetColor();
             }
         }
 
@@ -183,7 +207,7 @@ namespace ProjetoFinal
 
         static double digitaNumeroOrdenado(string ordem)
         {
-            return digitaNumero($"Digite o {ordem} número");
+            return digitaNumero($"\nDigite o {ordem} número..: ");
         }
 
     }

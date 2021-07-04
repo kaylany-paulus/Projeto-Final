@@ -1,48 +1,50 @@
-# PROJETO
+# PROJETO FINAL 
+## 1º SEMESTRE DE PROGRAMAÇÃO
+---
 
-O programa exibe as funcionalidades das operações aritiméticas.
+O programa exibe as funcionalidades das operações <b>_aritméticas_</b>.
 
-## _SCREENSHOT_
-
-```
-Execulta a SOMA.
-```
-![Tela do programa](telaSoma.png)
-
-## _SCREENSHOT_
+### _SCREENSHOT_
 
 ```
-Execulta a SUBTRAÇÃO.
+Executa a SOMA.
 ```
-![Tela do programa](telaSubtracao.png)
+![Tela do programa](imagens/telaSoma.png)
 
-## _SCREENSHOT_
-
-```
-Execulta a MULTIPLICAÇÃO.
-```
-![Tela do programa](telaMultiplicacao.png)
-
-## _SCREENSHOT_
+### _SCREENSHOT_
 
 ```
-Execulta a DIVISÃO.
+Executa a SUBTRAÇÃO.
 ```
-![Tela do programa](telaDivisao.png)
+![Tela do programa](imagens/telaSubtracao.png)
 
-## _SCREENSHOT_
-
-```
-Execulta a EXPONENCIAÇÃO.
-```
-![Tela do programa](telaExponenciacao.png)
-
-## _SCREENSHOT_
+### _SCREENSHOT_
 
 ```
-Execulta a RADICIAÇÃO.
+Executa a MULTIPLICAÇÃO.
 ```
-![Tela do programa](telaRadiciacao.png)
+![Tela do programa](imagens/telaMultiplicacao.png)
+
+### _SCREENSHOT_
+
+```
+Executa a DIVISÃO.
+```
+![Tela do programa](imagens/telaDivisao.png)
+
+### _SCREENSHOT_
+
+```
+Executa a EXPONENCIAÇÃO.
+```
+![Tela do programa](imagens/telaExponenciacao.png)
+
+### _SCREENSHOT_
+
+```
+Executa a RADICIAÇÃO.
+```
+![Tela do programa](imagens/telaRadiciacao.png)
 
 ---
 
@@ -52,15 +54,26 @@ Execulta a RADICIAÇÃO.
 
 [📌 Download do arquivo .zip](dist/Projeto-Final.zip)
 
-Execulte utlizando o comando
+Execute utlizando o comando abaixo.
 
 ```
 dotnet ProjetoFinal.dll
 ```
-_WINDOWS_
+_PARA WINDOWS_
 
 ````
-Apenas de um duplo-click
+Apenas dê um duplo click
 ````
+---
+<b>AGRADECIMENTOS</b>
+ 
+📍[- Etec Adolpho Berezin](http://eteab.com.br/cms/)
+
+📍[- Ermogenes Palacio](https://github.com/ermogenes)
+
+📍[- Diego Neri](https://github.com/diegoneri)
+
+📍[- Dev C#](https://ermogenes.github.io/aulas-programacao-csharp/)
+
 ---
 Todos os direitos reservados - Pirataria é crime.
