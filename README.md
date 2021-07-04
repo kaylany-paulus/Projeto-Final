@@ -12,7 +12,6 @@ Executa a SOMA.
 ![Tela do programa](imagens/telaSoma.png)
 
 ### _SCREENSHOT_
-
 ```
 Executa a SUBTRAÇÃO.
 ```
